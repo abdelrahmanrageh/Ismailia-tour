@@ -153,8 +153,10 @@
                         
                     </div>
                 </section>
+
                 
-                <form action=""></form><footer>
+                <!-- footer -->
+               <footer>
                     <div class="container  parallax__group" id="footer">
                         <p>contributed in this project:</p>
                         <div>
@@ -172,39 +174,6 @@
         </div>
         
         <script src="./js/main.js"></script>
-        <!-- <script>
-            async function translatePage() {
-            const contentElement = document.body;
-            const contentToTranslate = contentElement.innerText;
-
-            // Replace 'YOUR_SUBSCRIPTION_KEY' and 'YOUR_REGION' with your Azure Translator subscription key and region
-            const subscriptionKey = 'd3c41a49909c4e3a97c01e8c679663e5';
-            const region = 'global';
-
-            const endpoint = `https://${region}.api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=ar`;
-
-            try {
-                const response = await axios.post(endpoint, 
-                    JSON.stringify([{ Text: contentToTranslate }]), 
-                    { headers: {
-                        'Content-Type': 'application/json',
-                        'Ocp-Apim-Subscription-Key': subscriptionKey
-                    }}
-                );
-
-                const translation = response.data[0].translations[0].text;
-
-                // Replace 'ar' with the target language for translation
-                contentElement.innerHTML = translation;
-            } catch (error) {
-                console.error('Error translating text:', error);
-            }
-            }
-        </script> -->
-
-        <!-- <script src="./js/index.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> -->
     
     </body>
 </html>
